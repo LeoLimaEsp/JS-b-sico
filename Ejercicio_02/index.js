@@ -13,4 +13,4 @@ obtenerPalabras();
 let dividir = (texto,numero) => {
     console.log(texto.slice(texto,numero))
 }
-dividir("Hola mundo",4)
+dividir("Hola mundo",4);
