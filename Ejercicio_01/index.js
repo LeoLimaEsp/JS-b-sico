@@ -1,8 +1,7 @@
 console.log("First exercise");
-let x = 'Hello'
 
-var cantidadDeLetras = () =>
-{
-    console.log(`La palabra "${x}" tiene ${x.length} palabras.`)
+const cadena = (palabra) =>{
+    console.log(` La palabra "${palabra}" tiene ${palabra.length} letras.`)
 }
-cantidadDeLetras();
+
+cadena("casa");
